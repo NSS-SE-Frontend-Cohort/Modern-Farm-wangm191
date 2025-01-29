@@ -11,6 +11,7 @@ textarea {
 	font-family: "Comfortaa", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
+    background-color: papayawhip;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -34,3 +35,9 @@ h1,h2,h3,h4,h5,h6 {
     background-color: darksalmon;
 }
 
+.plant__type {
+    padding: 10px;
+    background-color: beige;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
