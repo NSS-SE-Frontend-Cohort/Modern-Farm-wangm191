@@ -1,0 +1,12 @@
+.messages { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.plant__type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

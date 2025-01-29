@@ -29,4 +29,3 @@ const crop = function* () {
         yield types[typeIdx]
     }
 }()
-
