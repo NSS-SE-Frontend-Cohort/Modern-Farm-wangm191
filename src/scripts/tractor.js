@@ -10,23 +10,23 @@ export const plantSeeds = (yearlyPlan) => {
     const flatPlan = yearlyPlan.flat()
 
     flatPlan.forEach(seed => {
-        switch (seed) {
-            case "Asparagus":
+        switch (seed.toLowerCase()) {
+            case "asparagus":
                 addPlant(createAsparagus())
                 break;
-            case "Corn":
+            case "corn":
                 addPlant(createCorn())
                 break;
-            case "Potato":
+            case "potato":
                 addPlant(createPotato())
                 break;
-            case "Soybean":
+            case "soybean":
                 addPlant(createSoybean())
                 break;
-            case "Sunflower":
+            case "sunflower":
                 addPlant(createSunflower())
                 break;
-            case "Wheat":
+            case "wheat":
                 addPlant(createWheat())
                 break;
         } 
